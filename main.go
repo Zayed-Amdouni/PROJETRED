@@ -365,7 +365,7 @@ func evolvePokemon(p *Pokemon) {
 		p.Name = newBase
 	}
 
-	fmt.Printf("✨ %s est arrivé au niveau 9 donc il évolue en %s !\n", p.Name, p.BaseName)
+	fmt.Printf(" %s est arrivé au niveau 9 donc il évolue en %s !\n", p.Name, p.BaseName)
 
 	var ans string
 	fmt.Printf("Souhaitez-vous changer son nom ? (o/n) : ")
